@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <input type="text" id="nombre" placeholder="Nombre"><br>
+        <input type="text" id="anio" placeholder="Año de ingreso"><br>
+        <input type="text" id="salario" placeholder="Salario"><br>
+        <input type="text" id="direccion" placeholder="Direccion"><br>
+        <button>Enviar</button>
+
+    </form>
+    <div class="containerRes">
+        <table border="1">
+            <h2>TODOS LOS EMPLEADOS</h2>
+            <tbody id="tablaRes">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Año de ingreso</th>
+                    <th>Direccion</th>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="empleadoAntiguedad">
+            <table border="1">
+                <h2>Antiguedad</h2>
+                <tbody id="tablaResAntiguedad">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Antiguedad</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="empleadoCalle">
+            <table border="1">
+                <h2>Viviendo en Wall Street</h2>
+                <tbody id="tablaResDireccion">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Direccion</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="app.js"></script>    
+</body>
+</html>
